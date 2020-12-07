@@ -15,35 +15,12 @@ private:
 public:
 	Cell();
 	char isSelected();
-	char isPath();
-	void setColor();
 	void setPosition(float x, float y);
 	void setSelected();
+	void setFill(int x = -1);
 	bool hover(int& mouseX, int& mouseY) {
 		return rect.getGlobalBounds().contains(mouseX, mouseY);
 	}
-	void setEnd() {
-		rect.setFillColor(sf::Color::Green);
-	}
-	void setFill(int x = -1) {
-		switch (x) {
-		case 1:
-			rect.setFillColor(sf::Color::Yellow);
-			return;
-		case 2:
-			rect.setFillColor(sf::Color::Green);
-			return;
-		case 3:
-			rect.setFillColor(sf::Color::Red);
-			return;
-		case 4:
-			rect.setFillColor(sf::Color::Blue);
-			return;
-		default:
-			rect.setFillColor(sf::Color::Black);
-			return;
-		}
-	} 
 	void setBlock() {
 		this->block = true;
 		setFill();
@@ -54,7 +31,7 @@ public:
 	void reset() {
 		selected = '0';
 		path = '0';
-		srand(time(0));
+		this->block = false;
 		int x = rand()%550;
 		if (x > 50 && x < 125)
 			this->block = true;
@@ -68,13 +45,10 @@ public:
 	bool isVisited() {
 		return visited;
 	}
-	void setPath();
-	void onClick();
-	void previous(Cell* parent) {
+	void setParent(Cell* parent) {
 		this->parent = parent;
 	}
 	Cell* getParent() {
 		return this->parent;
 	}
 };
-

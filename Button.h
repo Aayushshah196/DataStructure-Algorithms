@@ -6,6 +6,10 @@
 
 class Button 
 {
+private:
+    sf::Vector2f position;
+    sf::Text text;
+    
 public:
     Button();
     typedef std::shared_ptr<Button> buttonPtr;
@@ -15,8 +19,4 @@ public:
     sf::FloatRect getGlobalBounds();
     void setColor(const sf::Color color);
     int getSize();
-
-private:
-    sf::Vector2f position;
-    sf::Text text;
 };

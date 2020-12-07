@@ -24,7 +24,7 @@ private:
     sf::Font font;
     std::vector<Button::buttonPtr> buttons;
     MenuScreen currentScreen;
-    bool isSelected[17];
+    bool isSelected[15];
     bool isClicked;
     int mouseX, mouseY;
     bool startSort, startGraph;

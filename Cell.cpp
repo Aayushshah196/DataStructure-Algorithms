@@ -17,19 +17,6 @@ char Cell::isSelected() {
 	return selected;
 }
 
-char Cell::isPath() {
-	return path;
-}
-
-void Cell::setColor() {
-	if(selected == '1')
-		rect.setFillColor(sf::Color::Red);
-	if(path == '1')
-		rect.setFillColor(sf::Color::Green);
-
-	rect.setOutlineColor(sf::Color::White);
-}
-
 void Cell::setPosition(float x, float y) {
 	rect.setPosition(sf::Vector2f(x, y));
 }
@@ -38,10 +25,22 @@ void Cell::setSelected() {
 	 selected = '1';
 }
 
-void Cell::setPath() {
-	path = '1';
-}
-
-void Cell::onClick() {
-	rect.setFillColor(sf::Color::Cyan);
+void Cell::setFill(int x) {
+	switch (x) {
+	case 1:
+		rect.setFillColor(sf::Color::Yellow);
+		return;
+	case 2:
+		rect.setFillColor(sf::Color::Green);
+		return;
+	case 3:
+		rect.setFillColor(sf::Color::Red);
+		return;
+	case 4:
+		rect.setFillColor(sf::Color::Blue);
+		return;
+	default:
+		rect.setFillColor(sf::Color::Black);
+		return;
+	}
 }

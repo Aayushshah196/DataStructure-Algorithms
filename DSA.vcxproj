@@ -147,8 +147,11 @@
     <ClCompile Include="Animation.cpp" />
     <ClCompile Include="Button.cpp" />
     <ClCompile Include="Cell.cpp" />
+    <ClCompile Include="Edge.cpp" />
+    <ClCompile Include="GraphWindow.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="Node.cpp" />
     <ClCompile Include="SearchWindow.cpp" />
     <ClCompile Include="SortWindow.cpp" />
     <ClCompile Include="WindowManager.cpp" />
@@ -157,14 +160,14 @@
     <ClInclude Include="Animation.h" />
     <ClInclude Include="Button.h" />
     <ClInclude Include="Cell.h" />
+    <ClInclude Include="Edge.h" />
+    <ClInclude Include="GraphWindow.h" />
     <ClInclude Include="Menu.h" />
+    <ClInclude Include="Node.h" />
     <ClInclude Include="SearchWindow.h" />
     <ClInclude Include="SortWindow.h" />
     <ClInclude Include="Window.h" />
     <ClInclude Include="WindowManager.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <Font Include="sansation.ttf" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

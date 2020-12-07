@@ -11,10 +11,6 @@
 
 enum class Search
 {
-    PR,
-    KR,
-    DIJ,
-    FW,
     BFS,
     DFS
 };
@@ -32,6 +28,8 @@ public:
     void search();
     void breadthFirstSearch();
     void depthFirstSearch();
+    //char dfsUtil(int node, std::stack<int>* vertexStack);
+    
 private:
     int sizeX, sizeY;
     sf::Font mFont;
@@ -44,6 +42,7 @@ private:
     std::vector<Cell> grid;
     std::vector<int> items;
     int selected;
+    // returns vector of neighbor node for given node
     std::vector<int> getNeighbours(int node) {
         std::vector<int> neighbour;
         int dx[4] = { 0, 1, 0, -1 };
@@ -60,6 +59,9 @@ private:
         }
         return neighbour;
     }
+    //Checks if a path is possible for the given source and destination
+    //if found sets Path condition
+    //else sets no Path condition
     void getPath() {
         Cell* node = &grid[items[1]];
         std::vector<Cell*> path;
@@ -70,14 +72,13 @@ private:
                 return;
             }
             node = node->getParent();
-            
         }
         path.push_back(&grid[items[0]]);
         setPath(path);
-        return;
     }
+
+    //sets the nodes color if no path is found 
     void noPath() {
-        int delay = 100;
         for (Cell& cell : grid) {
             if (!cell.isBlock())
                 cell.setFill(1);
@@ -86,20 +87,17 @@ private:
         grid[items[1]].setFill(3);
         draw();
     }
+
+    //sets the path color if a path is found 
     void setPath(std::vector<Cell*>& path) {
-        int delay = 100;
         for (Cell& cell : grid) {
             if(!cell.isBlock())
-                cell.setFill(1);
+              cell.setFill(1);
         }
-        draw();
-        sleep(delay);
         for (Cell* cell : path) {
             cell->setFill(2);
         }
         draw();
     }
+
 };
-
-
-

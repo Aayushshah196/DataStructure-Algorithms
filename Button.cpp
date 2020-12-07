@@ -1,7 +1,7 @@
 #include "Button.h"
 #include <iostream>
 
-Button::Button() : text()
+Button::Button()
 {
 }
 

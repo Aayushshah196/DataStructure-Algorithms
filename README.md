@@ -1,7 +1,7 @@
-# DataStructure-Algorithms
-##Algorithm Visulaizer
+# Data Structure & Algorithms
+## Algorithm Visulaizer
 
-###Sorting
+### Sorting
 
 * QUICK SORT
 * MERGE SORT
@@ -10,7 +10,7 @@
 * SELECTION SORT
 * RADIX SORT
 
-###Graph
+### Graph
 
 * Prim's Algorithm
 * Kruskal's Algorithm

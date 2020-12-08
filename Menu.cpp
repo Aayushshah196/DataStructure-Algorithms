@@ -2,9 +2,9 @@
 #include <SFML/Graphics.hpp>
 
 #include "Menu.h"
-#include "SortWindow.h"
-#include "SearchWindow.h"
-#include "GraphWindow.h"
+#include "./sorting/SortWindow.h"
+#include "./graph/SearchWindow.h"
+#include "./spanningtree/GraphWindow.h"
 
 Menu::Menu(WindowManager& windowManager, sf::RenderWindow& window, MenuScreen currentScreen)
 	: Window(windowManager, window), currentScreen(currentScreen), startSort(false), mouseX(0), mouseY(0), isClicked(false), buttons(), startGraph(false)

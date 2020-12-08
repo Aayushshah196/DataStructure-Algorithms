@@ -145,29 +145,29 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Animation.cpp" />
-    <ClCompile Include="Button.cpp" />
-    <ClCompile Include="Cell.cpp" />
-    <ClCompile Include="Edge.cpp" />
-    <ClCompile Include="GraphWindow.cpp" />
+    <ClCompile Include="graph\Cell.cpp" />
+    <ClCompile Include="graph\SearchWindow.cpp" />
+    <ClCompile Include="helper\Button.cpp" />
+    <ClCompile Include="helper\WindowManager.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Menu.cpp" />
-    <ClCompile Include="Node.cpp" />
-    <ClCompile Include="SearchWindow.cpp" />
-    <ClCompile Include="SortWindow.cpp" />
-    <ClCompile Include="WindowManager.cpp" />
+    <ClCompile Include="sorting\SortWindow.cpp" />
+    <ClCompile Include="spanningtree\Edge.cpp" />
+    <ClCompile Include="spanningtree\GraphWindow.cpp" />
+    <ClCompile Include="spanningtree\Node.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Animation.h" />
-    <ClInclude Include="Button.h" />
-    <ClInclude Include="Cell.h" />
-    <ClInclude Include="Edge.h" />
-    <ClInclude Include="GraphWindow.h" />
+    <ClInclude Include="graph\Cell.h" />
+    <ClInclude Include="graph\SearchWindow.h" />
+    <ClInclude Include="helper\Button.h" />
+    <ClInclude Include="helper\Window.h" />
+    <ClInclude Include="helper\WindowManager.h" />
     <ClInclude Include="Menu.h" />
-    <ClInclude Include="Node.h" />
-    <ClInclude Include="SearchWindow.h" />
-    <ClInclude Include="SortWindow.h" />
-    <ClInclude Include="Window.h" />
-    <ClInclude Include="WindowManager.h" />
+    <ClInclude Include="sorting\SortWindow.h" />
+    <ClInclude Include="spanningtree\Edge.h" />
+    <ClInclude Include="spanningtree\GraphWindow.h" />
+    <ClInclude Include="spanningtree\Node.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

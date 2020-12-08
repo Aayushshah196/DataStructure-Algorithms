@@ -1,6 +1,6 @@
 #pragma once
 #include <SFML/Graphics.hpp>
-#include "WindowManager.h"
+#include "./helper/WindowManager.h"
 #include <memory>
 class Animation
 {

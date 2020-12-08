@@ -1,1 +1,137 @@
-﻿  DSA.vcxproj -> C:\Users\dell-i5\Desktop\DSA\Debug\DSA.exe
+﻿  Menu.cpp
+C:\Users\dell-i5\Desktop\DSA\graph\Cell.h(23,50): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\dell-i5\Desktop\DSA\graph\Cell.h(23,42): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\dell-i5\Desktop\DSA\Menu.cpp(13,20): warning C4244: 'initializing': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\dell-i5\Desktop\DSA\Menu.cpp(14,21): warning C4244: 'initializing': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\dell-i5\Desktop\DSA\Menu.cpp(16,49): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\dell-i5\Desktop\DSA\Menu.cpp(16,31): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\dell-i5\Desktop\DSA\Menu.cpp(17,33): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\dell-i5\Desktop\DSA\Menu.cpp(17,20): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\dell-i5\Desktop\DSA\Menu.cpp(155,58): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\dell-i5\Desktop\DSA\Menu.cpp(155,50): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\dell-i5\Desktop\DSA\Menu.cpp(195,58): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\dell-i5\Desktop\DSA\Menu.cpp(195,50): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\dell-i5\Desktop\DSA\Menu.cpp(258,58): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\dell-i5\Desktop\DSA\Menu.cpp(258,50): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\dell-i5\Desktop\DSA\Menu.cpp(275,57): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\dell-i5\Desktop\DSA\Menu.cpp(275,49): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  SearchWindow.cpp
+C:\Users\dell-i5\Desktop\DSA\graph\Cell.h(23,50): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\dell-i5\Desktop\DSA\graph\Cell.h(23,42): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\dell-i5\Desktop\DSA\graph\SearchWindow.cpp(17,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\dell-i5\Desktop\DSA\graph\SearchWindow.cpp(19,20): warning C4244: 'initializing': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\dell-i5\Desktop\DSA\graph\SearchWindow.cpp(20,21): warning C4244: 'initializing': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\dell-i5\Desktop\DSA\graph\SearchWindow.cpp(22,49): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\dell-i5\Desktop\DSA\graph\SearchWindow.cpp(22,31): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\dell-i5\Desktop\DSA\graph\SearchWindow.cpp(23,33): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\dell-i5\Desktop\DSA\graph\SearchWindow.cpp(23,20): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\dell-i5\Desktop\DSA\graph\SearchWindow.cpp(60,41): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\dell-i5\Desktop\DSA\graph\SearchWindow.cpp(60,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\dell-i5\Desktop\DSA\graph\SearchWindow.cpp(102,58): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\dell-i5\Desktop\DSA\graph\SearchWindow.cpp(102,50): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  Generating Code...
+  DSA.vcxproj -> C:\Users\dell-i5\Desktop\DSA\Debug\DSA.exe

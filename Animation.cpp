@@ -1,5 +1,4 @@
 #include "Animation.h"
-#include <SFML/Graphics.hpp>
 #include "Menu.h"
 
 const sf::Time Animation::timePerFrame = sf::seconds(1.f / 60.f);

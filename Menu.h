@@ -1,7 +1,7 @@
 #pragma once
-#include "Window.h"
-#include "WindowManager.h"
-#include "Button.h"
+#include "./helper/Window.h"
+#include "./helper/WindowManager.h"
+#include "./helper/Button.h"
 #include <vector>
 #include <memory>
 
